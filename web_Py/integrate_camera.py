@@ -5,6 +5,8 @@ import time
 import serial
 import termios
 
+# 시리얼포트가 하드코딩되어있습니다. 타 기기에서 구동시 필히 수정바랍니다.
+# macOS에 최적화되어있습니다.
 
 path = '/dev/cu.usbmodem21401'
 
